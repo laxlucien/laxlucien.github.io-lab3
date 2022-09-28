@@ -1,0 +1,216 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/*
+    Created on : Sep 21, 2022, 3:03:38 PM
+    Author     : lee4219
+*/
+
+body {
+    background-image: url("background.png");
+    font-family: Garamond, serif;
+    margin: auto;
+}
+h1 {
+    color: #FFB6C1;
+    text-align: center;
+    font-size: 45px;
+}
+h2 {
+  color: white;
+  text-align: center;
+}
+.topnav a{
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    border-radius: 25px;
+
+}
+#nav a.active {
+    background-color: #eb8d9b;
+    color: white;
+}
+#nav a:hover {
+    background-color: black;
+    color: #FFB6C1;
+}
+#nav {
+    list-style: none;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width = 100%;
+    text-align: center;
+    background-color: #FFB6C1;
+    position: sticky;
+    top: 0;
+    border-radius: 25px;
+    width: 100%;
+}
+#nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+}
+#nav li {
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    float: left;
+}
+.topnav {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+#profile {
+    width: 75%;
+    height: 75%;
+    border-radius: 25px;
+    align-items: center;
+}
+#image {
+      border-radius: 25px;
+      align-items: center;
+}
+table {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#info {
+    font-size: 18px;
+    background-color: #FFB6C1;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    border-radius: 25px;
+}
+.footer {
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  list-style: none;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background-color: #FFB6C1;
+  border-radius: 25px;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.footer a{
+    float: left;
+    text-align: center;
+    padding: 7px 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 25px;
+}
+.footer ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+}
+.footer li {
+  padding: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  float: left;
+}
+.footer a:hover {
+    background-color: black;
+    color: #FFB6C1;
+}
+.footer a.active{
+  background-color: #eb8d9b;
+  color: white;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 25px
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize vertical;
+}
+input[type=submit] {
+    background-color: #FFB6C1;
+    color: white;
+    padding: 12px, 20px
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: black;
+    color: #FFB6C1;
+}
+.container {
+    border-radius: 25px;
+    background-color: #FFB6C1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+label {
+   color: white;
+   font-size: 20px;
+}
+input[type=password], input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+button {
+  background-color: #eb8d9b;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+button:hover{
+  background-color: black;
+  color: #FFB6C1;
+}
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: red;
+}
+.imgcontainer {
+  align-items: center;
+  margin: 24px 0 12px 0;
+  width: 25%;
+  height: 25%;
+  border-radius: 50px;
+}
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
